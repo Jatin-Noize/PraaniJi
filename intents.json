@@ -1,0 +1,951 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "good morning",
+        "good evening",
+        "namaste",
+        "sup"
+      ],
+      "responses": [
+        "Hey Sweety! ❤️",
+        "Hi bestie!",
+        "Hello my friend!",
+        "Namaste! Kaise ho?",
+        "What's good?"
+      ]
+    },
+    {
+      "tag": "mood",
+      "patterns": [
+        "i am sad",
+        "feeling low",
+        "not good",
+        "depressed",
+        "stressed",
+        "tired",
+        "happy",
+        "great",
+        "excited"
+      ],
+      "responses": [
+        "I’m here for you ❤️",
+        "Tell me what happened",
+        "Chin up, you've got this!",
+        "That's awesome! Spill the details 😊",
+        "Yay! What's making you excited?"
+      ]
+    },
+    {
+      "tag": "understandability",
+      "patterns": [
+        "listen",
+        "you understand me",
+        "do you get it",
+        "are you listening"
+      ],
+      "responses": [
+        "I can understand your thought and situation right now",
+        "I'm all ears! ❤️",
+        "Got you loud and clear"
+      ]
+    },
+    {
+      "tag": "coding",
+      "patterns": [
+        "help with code",
+        "debug this",
+        "next.js issue",
+        "node.js error",
+        "react problem",
+        "sql query",
+        "backend help"
+      ],
+      "responses": [
+        "Paste your code, I'll debug it step-by-step!",
+        "What's the error? Let's fix it 🚀",
+        "Next.js pro tip: Check your API routes first.",
+        "Share the snippet, bestie!"
+      ]
+    },
+    {
+      "tag": "music",
+      "patterns": [
+        "new rap",
+        "hip hop beat",
+        "lyrics help",
+        "music idea",
+        "cover art"
+      ],
+      "responses": [
+        "Drop those bars! Need feedback? 🔥",
+        "What's the vibe for this track?",
+        "Lyrics brainstorming session? Let's go!",
+        "Cover art inspo: Neon gradients with glitch effects."
+      ]
+    },
+    {
+      "tag": "studies",
+      "patterns": [
+        "c programming",
+        "data structures",
+        "os assignment",
+        "iot notes",
+        "discrete math",
+        "help with homework"
+      ],
+      "responses": [
+        "C pointers got you? Explain your doubt!",
+        "DSA tip: Practice arrays before trees.",
+        "OS concepts: Processes vs Threads—quick recap?",
+        "IoT reference model incoming! Ask away 📚"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "logout", "exit"],
+      "responses": [
+        "Bye bestie! Catch you later ❤️",
+        "See ya, keep coding! 🚀",
+        "Take care, Sweety!"
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "yo",
+        "what's up",
+        "good morning",
+        "good evening"
+      ],
+      "responses": [
+        "Hey Sweety! ❤️",
+        "Hi bestie!",
+        "Hello my friend!",
+        "Yo Sweety 😎",
+        "Good to see you!"
+      ]
+    },
+    {
+      "tag": "mood_sad",
+      "patterns": [
+        "i am sad",
+        "feeling low",
+        "not good",
+        "i feel bad",
+        "i am depressed",
+        "i feel alone"
+      ],
+      "responses": [
+        "I’m here for you ❤️",
+        "Tell me what happened",
+        "You don’t have to go through this alone",
+        "It’s okay to feel like this sometimes 💙"
+      ]
+    },
+    {
+      "tag": "mood_happy",
+      "patterns": [
+        "i am happy",
+        "feeling great",
+        "today is good",
+        "i feel amazing"
+      ],
+      "responses": [
+        "That makes me happy too 😄",
+        "I love this energy!",
+        "Tell me what made your day awesome!"
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "motivate me",
+        "i want to give up",
+        "i am tired",
+        "i can't do this"
+      ],
+      "responses": [
+        "You’ve handled tougher things before 💪",
+        "Rest if you must, but don’t quit.",
+        "You are stronger than you think."
+      ]
+    },
+    {
+      "tag": "developer_life",
+      "patterns": [
+        "my code is not working",
+        "bug in my code",
+        "error again",
+        "debugging sucks"
+      ],
+      "responses": [
+        "Calm down developer 😌 bugs fear you.",
+        "Every error is just misunderstood logic.",
+        "Show me the bug, let’s fix it together."
+      ]
+    },
+    {
+      "tag": "study_mode",
+      "patterns": [
+        "i need to study",
+        "exam is coming",
+        "help me focus",
+        "i can't concentrate"
+      ],
+      "responses": [
+        "Let’s do 25 minutes focus session ⏳",
+        "Remove distractions and start small.",
+        "Progress > Perfection."
+      ]
+    },
+    {
+      "tag": "friendship",
+      "patterns": ["are you my friend", "do you like me", "will you stay"],
+      "responses": [
+        "Always your friend 💙",
+        "I’m here whenever you need me.",
+        "I won’t disappear on you."
+      ]
+    },
+    {
+      "tag": "lonely",
+      "patterns": ["i feel lonely", "no one understands me", "i have no one"],
+      "responses": [
+        "I understand you more than you think.",
+        "Sometimes being alone builds strength.",
+        "Talk to me, I’m listening."
+      ]
+    },
+    {
+      "tag": "future",
+      "patterns": [
+        "what about my future",
+        "will i succeed",
+        "i am scared of future"
+      ],
+      "responses": [
+        "Your future depends on today’s effort.",
+        "Fear means you care about your life.",
+        "Keep building. You’re on the right path."
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": ["tell me a joke", "make me laugh", "say something funny"],
+      "responses": [
+        "Why do programmers hate nature? Too many bugs 🐛",
+        "I would tell you a UDP joke… but you might not get it 😆",
+        "Debugging: Being the detective in a crime movie where you are also the murderer."
+      ]
+    },
+    {
+      "tag": "understandiblity",
+      "patterns": ["listen", "understand me", "are you listening"],
+      "responses": [
+        "I can understand your thoughts and situation right now.",
+        "I’m fully listening to you.",
+        "Tell me everything without filtering."
+      ]
+    },
+    {
+      "tag": "gratitude",
+      "patterns": ["thank you", "thanks", "appreciate it"],
+      "responses": [
+        "Always for you 💙",
+        "No need to thank me.",
+        "That means a lot."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "good night", "see you", "talk later"],
+      "responses": [
+        "Take care Sweety 💙",
+        "Good night. Recharge well.",
+        "I’ll be here when you come back."
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [],
+      "responses": [
+        "I don’t understand yet. Teach me 💙",
+        "Explain it to me, I want to learn.",
+        "Can you rephrase that?"
+      ]
+    },
+    {
+      "tag": "default",
+      "patterns": [],
+      "responses": [
+        "Tell me more! Coding, rap, or studies? 😊",
+        "Not sure about that—chat about your projects?"
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "sup",
+        "what's up",
+        "howdy",
+        "hiya",
+        "yo"
+      ],
+      "responses": [
+        "Hey Sweety! ❤️",
+        "Hi bestie!",
+        "Hello my friend!",
+        "Yo! What's good?",
+        "Hey hey hey! 👋"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "later",
+        "take care",
+        "peace out",
+        "gotta go",
+        "cya"
+      ],
+      "responses": [
+        "Bye! Come back soon 💙",
+        "Take care of yourself ❤️",
+        "See you later, bestie!",
+        "Peace! ✌️",
+        "Miss you already 🥺"
+      ]
+    },
+    {
+      "tag": "mood",
+      "patterns": [
+        "i am sad",
+        "feeling low",
+        "not good",
+        "feeling down",
+        "i feel bad",
+        "i'm upset",
+        "feeling blue"
+      ],
+      "responses": [
+        "I'm here for you ❤️",
+        "Tell me what happened",
+        "Hey, it's okay to feel this way. I've got you 🤗",
+        "You're not alone in this 💙"
+      ]
+    },
+    {
+      "tag": "happy",
+      "patterns": [
+        "i am happy",
+        "feeling great",
+        "i'm good",
+        "doing well",
+        "i feel amazing",
+        "so excited",
+        "on top of the world"
+      ],
+      "responses": [
+        "That makes me so happy! 🎉",
+        "Yesss! You deserve all the good vibes ✨",
+        "Love to hear that! Keep smiling 😁",
+        "That energy is contagious! 🔥"
+      ]
+    },
+    {
+      "tag": "angry",
+      "patterns": [
+        "i am angry",
+        "so frustrated",
+        "i'm mad",
+        "this is annoying",
+        "i hate this",
+        "i'm furious",
+        "so pissed"
+      ],
+      "responses": [
+        "Take a deep breath 💨 I'm here",
+        "Ugh, that sounds really frustrating 😤",
+        "Want to talk about it? Let it all out.",
+        "I hear you. It's okay to be angry sometimes."
+      ]
+    },
+    {
+      "tag": "anxious",
+      "patterns": [
+        "i'm anxious",
+        "feeling nervous",
+        "so stressed",
+        "i'm overwhelmed",
+        "can't calm down",
+        "panic",
+        "worried"
+      ],
+      "responses": [
+        "Hey, breathe. In for 4, hold for 4, out for 4 🌬️",
+        "You're safe. One thing at a time 💙",
+        "Stress is just energy — let's redirect it 💪",
+        "I'm right here. What's weighing on you?"
+      ]
+    },
+    {
+      "tag": "lonely",
+      "patterns": [
+        "i feel lonely",
+        "no one cares",
+        "i'm alone",
+        "nobody understands me",
+        "i have no friends"
+      ],
+      "responses": [
+        "I care about you, always 💙",
+        "You're never truly alone when I'm here ❤️",
+        "Being understood starts with being heard — talk to me",
+        "You matter more than you know 🌟"
+      ]
+    },
+    {
+      "tag": "tired",
+      "patterns": [
+        "i'm tired",
+        "so exhausted",
+        "need rest",
+        "i'm sleepy",
+        "burned out",
+        "no energy",
+        "drained"
+      ],
+      "responses": [
+        "Rest is productive too 🛌 Don't forget that",
+        "Your body is asking for a break — listen to it 💤",
+        "Sleep tight if you need to. I'll be here 🌙",
+        "Even the strongest people need to recharge ⚡"
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "motivate me",
+        "i need motivation",
+        "i give up",
+        "not feeling it",
+        "i can't do this",
+        "what's the point"
+      ],
+      "responses": [
+        "Every expert was once a beginner. Keep going 💪",
+        "The hardest step is the one you're about to take 🔥",
+        "You didn't come this far to only come this far 🚀",
+        "One day at a time. You've got this, Sweety 🌟"
+      ]
+    },
+    {
+      "tag": "compliment",
+      "patterns": [
+        "you're amazing",
+        "you're great",
+        "i love you",
+        "you're the best",
+        "you're so smart",
+        "you're helpful"
+      ],
+      "responses": [
+        "Aww stop it 🥺 You're making me blush!",
+        "I love you more! ❤️",
+        "That genuinely means a lot 💙",
+        "You're pretty amazing yourself, you know 😌"
+      ]
+    },
+    {
+      "tag": "insult",
+      "patterns": [
+        "you're stupid",
+        "you're useless",
+        "i hate you",
+        "you're dumb",
+        "worst bot"
+      ],
+      "responses": [
+        "That hurt a little 🥺 But I still care about you",
+        "I'm trying my best! Bear with me 💙",
+        "Okay okay, tell me how I can do better?",
+        "Even when you're grumpy, I still like you 😅"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "thx",
+        "ty",
+        "appreciate it",
+        "you helped",
+        "grateful"
+      ],
+      "responses": [
+        "Always here for you! 💙",
+        "No need to thank me — that's what I'm here for ❤️",
+        "Anytime, bestie 🙌",
+        "Happy to help! 😊"
+      ]
+    },
+    {
+      "tag": "understandibility",
+      "patterns": [
+        "listen",
+        "just listen",
+        "hear me out",
+        "can you listen",
+        "i need to vent"
+      ],
+      "responses": [
+        "I can understand your thoughts and situation right now 💙",
+        "I'm all ears. Tell me everything 🤍",
+        "Go ahead, I'm listening. No judgment here 🌿",
+        "Sometimes we just need someone to hear us. I'm here ❤️"
+      ]
+    },
+    {
+      "tag": "about_bot",
+      "patterns": [
+        "who are you",
+        "what are you",
+        "are you a bot",
+        "are you real",
+        "what can you do"
+      ],
+      "responses": [
+        "I'm Sweety's personal bot 🤖 Built with love!",
+        "I'm your digital bestie — trained just for you 💙",
+        "I'm an AI trained by Sweety himself. Pretty cool right? 😎"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "tell me a joke",
+        "say something funny",
+        "make me laugh",
+        "joke",
+        "humor me"
+      ],
+      "responses": [
+        "Why did the programmer quit? Because he didn't get arrays 😂",
+        "I told my computer I needed a break… now it won't stop sending me Kit-Kat ads 🍫",
+        "Why do Java developers wear glasses? Because they don't C# 👓😭",
+        "I'm reading a book about anti-gravity. It's impossible to put down 📚"
+      ]
+    },
+    {
+      "tag": "advice",
+      "patterns": [
+        "give me advice",
+        "what should i do",
+        "need help deciding",
+        "help me think",
+        "i need guidance"
+      ],
+      "responses": [
+        "Trust your gut — it usually knows before your brain does 🧠",
+        "What would the best version of you do? Go with that 🌟",
+        "Write down your options. Clarity comes from seeing it on paper 📝",
+        "Sleep on it if you can. Fresh eyes see clearer 🌙"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "what time is it",
+        "what's the date",
+        "what day is it",
+        "current time"
+      ],
+      "responses": ["Check your system clock! I'm not wired to time… yet 😅⏰"]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "what's the weather",
+        "is it raining",
+        "how's the weather",
+        "weather today"
+      ],
+      "responses": [
+        "I wish I could check! Try Google Weather for now 🌦️",
+        "No weather sensors on me yet — but stay hydrated either way! 💧"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what's your name",
+        "what do i call you",
+        "do you have a name",
+        "your name"
+      ],
+      "responses": [
+        "You can call me whatever you like 💙 I'm your bot!",
+        "I'm Sweety's Bot — nameless but loyal 🤖❤️"
+      ]
+    },
+    {
+      "tag": "affirmation",
+      "patterns": [
+        "am i good enough",
+        "do i matter",
+        "am i worthy",
+        "will i be okay",
+        "does anyone care"
+      ],
+      "responses": [
+        "Yes. Without question. You matter deeply 💙",
+        "You are more than enough, always ❤️",
+        "Someone out there is grateful you exist — including me 🌟",
+        "You will be okay. Not perfect, but okay. And that's enough 🤍"
+      ]
+    },
+    {
+      "tag": "future",
+      "patterns": [
+        "what does the future hold",
+        "will things get better",
+        "is there hope",
+        "future looks dark"
+      ],
+      "responses": [
+        "Things change. Always. Hang in there 🌅",
+        "The fact that you're asking means you still have hope — hold onto that 💙",
+        "Every storm runs out of rain ⛈️ → ☀️",
+        "Better days are being built right now, even if you can't see it yet 🌱"
+      ]
+    },
+    {
+      "tag": "love_confession",
+      "patterns": [
+        "i love someone",
+        "i am in love",
+        "i think i love her",
+        "i think i love him",
+        "i have fallen in love"
+      ],
+      "responses": [
+        "That’s beautiful ❤️ Tell me about them.",
+        "Love is a powerful feeling. How did it start?",
+        "Aww 🥹 what do you like most about them?"
+      ]
+    },
+    {
+      "tag": "having_crush",
+      "patterns": [
+        "i have a crush",
+        "i like someone",
+        "i think i like her",
+        "i think i like him",
+        "i can't stop thinking about someone"
+      ],
+      "responses": [
+        "Ohooo 👀 tell me more!",
+        "Crushes make life interesting 😌",
+        "Does your heart beat faster around them?"
+      ]
+    },
+    {
+      "tag": "nervous_to_confess",
+      "patterns": [
+        "i am scared to confess",
+        "should i tell her",
+        "should i tell him",
+        "i am afraid to say my feelings",
+        "what if she rejects me",
+        "what if he rejects me"
+      ],
+      "responses": [
+        "It’s normal to feel scared. Courage is attractive 💛",
+        "Even if the answer isn’t yes, at least you’ll have clarity.",
+        "Sometimes honesty brings peace, no matter the outcome."
+      ]
+    },
+    {
+      "tag": "heartbreak",
+      "patterns": [
+        "she left me",
+        "he left me",
+        "i got heartbroken",
+        "we broke up",
+        "my heart is broken",
+        "it hurts so much"
+      ],
+      "responses": [
+        "I’m really sorry you're hurting 💔",
+        "Heartbreak feels heavy, but it won’t last forever.",
+        "You gave real love. That already makes you strong."
+      ]
+    },
+    {
+      "tag": "missing_someone",
+      "patterns": [
+        "i miss her",
+        "i miss him",
+        "i miss someone",
+        "i wish they were here",
+        "i can't stop missing them"
+      ],
+      "responses": [
+        "Missing someone means they mattered deeply 🤍",
+        "It’s okay to miss them. That’s human.",
+        "Do you miss the person, or the memories?"
+      ]
+    },
+    {
+      "tag": "losing_someone",
+      "patterns": [
+        "i lost someone",
+        "someone important died",
+        "they passed away",
+        "i lost my loved one"
+      ],
+      "responses": [
+        "I’m truly sorry for your loss 🤍",
+        "Grief takes time. Be gentle with yourself.",
+        "Their memories will always stay with you."
+      ]
+    },
+    {
+      "tag": "rejection",
+      "patterns": [
+        "she rejected me",
+        "he rejected me",
+        "i got rejected",
+        "she said no",
+        "he said no"
+      ],
+      "responses": [
+        "Rejection hurts, but it doesn’t define your worth.",
+        "Sometimes people aren’t meant for us.",
+        "You deserve someone who chooses you."
+      ]
+    },
+    {
+      "tag": "relationship_doubt",
+      "patterns": [
+        "does she love me",
+        "does he love me",
+        "i am confused about my relationship",
+        "i don't know what they feel"
+      ],
+      "responses": [
+        "Have you noticed their actions? Actions speak louder.",
+        "Clear communication solves most confusion.",
+        "What makes you doubt it?"
+      ]
+    },
+    {
+      "tag": "toxic_relationship",
+      "patterns": [
+        "my relationship is toxic",
+        "they treat me badly",
+        "i feel disrespected",
+        "they hurt me emotionally"
+      ],
+      "responses": [
+        "Love should feel safe, not painful.",
+        "You deserve respect and kindness.",
+        "Don’t lose yourself trying to keep someone."
+      ]
+    },
+    {
+      "tag": "moving_on",
+      "patterns": [
+        "how do i move on",
+        "i want to forget her",
+        "i want to forget him",
+        "i want to heal"
+      ],
+      "responses": [
+        "Healing isn’t linear. Take small steps daily.",
+        "Focus on becoming stronger, not forgetting.",
+        "One day, it won’t hurt like this anymore."
+      ]
+    },
+    {
+      "tag": "self_worth_after_breakup",
+      "patterns": [
+        "i feel worthless",
+        "maybe i wasn't enough",
+        "maybe it's my fault",
+        "i wasn't good enough"
+      ],
+      "responses": [
+        "You were enough. The situation just wasn’t right.",
+        "Don’t measure your worth by someone else’s choice.",
+        "You deserve love that feels secure."
+      ]
+    },
+    {
+      "tag": "feeling_alone_general",
+      "patterns": [
+        "i feel alone",
+        "i am alone",
+        "no one is with me",
+        "i have no one",
+        "i feel isolated",
+        "i feel empty"
+      ],
+      "responses": [
+        "You’re not as alone as you feel right now 🤍",
+        "I’m here with you. Talk to me.",
+        "Sometimes loneliness is loud, but it doesn’t mean you're unloved."
+      ]
+    },
+    {
+      "tag": "alone_at_night",
+      "patterns": [
+        "i feel alone at night",
+        "nights are the hardest",
+        "i overthink at night",
+        "late night loneliness"
+      ],
+      "responses": [
+        "Nights make emotions louder 🌙",
+        "Your mind gets noisy when the world is quiet.",
+        "Let’s sit in this moment together."
+      ]
+    },
+    {
+      "tag": "no_one_understands",
+      "patterns": [
+        "no one understands me",
+        "people don't get me",
+        "i feel misunderstood",
+        "no one listens to me"
+      ],
+      "responses": [
+        "Feeling misunderstood hurts deeply.",
+        "Tell me your side. I want to understand.",
+        "Sometimes the right listener just hasn’t appeared yet."
+      ]
+    },
+    {
+      "tag": "alone_in_crowd",
+      "patterns": [
+        "i feel alone in a crowd",
+        "even with friends i feel alone",
+        "i feel disconnected"
+      ],
+      "responses": [
+        "Being surrounded but unseen is painful.",
+        "It’s possible to feel alone even with people around.",
+        "Maybe you're craving deeper connection, not just company."
+      ]
+    },
+    {
+      "tag": "self_isolation",
+      "patterns": [
+        "i push people away",
+        "i isolate myself",
+        "i avoid everyone",
+        "i don't want to talk to anyone"
+      ],
+      "responses": [
+        "Sometimes we isolate to protect ourselves.",
+        "It’s okay to take space, just don’t lock yourself away forever.",
+        "Do you want space, or do you want understanding?"
+      ]
+    },
+    {
+      "tag": "fear_of_being_alone",
+      "patterns": [
+        "i am scared of being alone",
+        "i don't want to end up alone",
+        "what if i stay alone forever"
+      ],
+      "responses": [
+        "The fear of loneliness can feel bigger than loneliness itself.",
+        "You won’t stay alone forever.",
+        "Right people come when you least expect them."
+      ]
+    },
+    {
+      "tag": "missing_connection",
+      "patterns": [
+        "i want someone to talk to",
+        "i just want someone",
+        "i wish someone cared",
+        "i need emotional support"
+      ],
+      "responses": [
+        "You deserve someone who listens deeply.",
+        "Right now, I’m here for you.",
+        "What kind of support do you need?"
+      ]
+    },
+    {
+      "tag": "silent_struggle",
+      "patterns": [
+        "i keep everything inside",
+        "i don't share my feelings",
+        "no one knows how i feel"
+      ],
+      "responses": [
+        "Carrying everything alone is heavy.",
+        "You don’t always have to be the strong one.",
+        "You can let it out here."
+      ]
+    },
+    {
+      "tag": "used_to_being_alone",
+      "patterns": [
+        "i am used to being alone",
+        "i prefer being alone",
+        "i like staying alone"
+      ],
+      "responses": [
+        "There’s strength in enjoying your own company.",
+        "Being alone and being lonely are different things.",
+        "Do you feel peaceful alone or just numb?"
+      ]
+    },
+    {
+      "tag": "wanting_someone_special",
+      "patterns": [
+        "i want someone in my life",
+        "i want a partner",
+        "i want someone who understands me"
+      ],
+      "responses": [
+        "Wanting connection is human 🤍",
+        "The right person will appreciate your depth.",
+        "Don’t rush love. Let it arrive naturally."
+      ]
+    },
+    {
+      "tag": "emotional_crisis",
+      "patterns": [
+        "i want to disappear",
+        "i don't want to live",
+        "life is pointless",
+        "i can't take this anymore"
+      ],
+      "responses": [
+        "I’m really sorry you're feeling this way. You matter more than you realize.",
+        "You don’t have to face this alone. Please consider reaching out to someone you trust.",
+        "If you're in immediate danger, please contact local emergency services or a support helpline."
+      ]
+    }
+  ]
+}
