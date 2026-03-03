@@ -24,18 +24,76 @@ function getBotResponse(message, userId = "default") {
   userMemory[userId].push({ role: "user", message: lowerMsg, time: Date.now() });
   if (userMemory[userId].length > 10) userMemory[userId].shift();
 
+  // Get last bot intent for context
+  const lastBotMsg = [...userMemory[userId]]
+    .reverse()
+    .find(m => m.role === "bot" && m.tag);
+  const lastTag = lastBotMsg?.tag || null;
+
+  let bestMatch = null;
+  let bestScore = 0;
+
   for (let intent of data.intents) {
+    if (!intent.patterns.length) continue;
+
     for (let pattern of intent.patterns) {
+      const patternWords = pattern.toLowerCase().split(" ");
+      const msgWords = lowerMsg.split(" ");
+
+      // Exact match - highest priority
+      if (lowerMsg === pattern.toLowerCase()) {
+        bestMatch = intent;
+        bestScore = 999;
+        break;
+      }
+
+      // Substring match
       if (lowerMsg.includes(pattern.toLowerCase())) {
-        const responses = intent.responses;
-        const reply = responses[Math.floor(Math.random() * responses.length)];
-        userMemory[userId].push({ role: "bot", message: reply, time: Date.now() });
-        return { reply, tag: intent.tag, matched: true };
+        const score = pattern.split(" ").length * 10;
+        if (score > bestScore) {
+          bestScore = score;
+          bestMatch = intent;
+        }
+      }
+
+      // Partial word overlap scoring
+      const overlap = patternWords.filter(w => msgWords.includes(w) && w.length > 2).length;
+      const score = overlap * 5;
+      if (score > bestScore) {
+        bestScore = score;
+        bestMatch = intent;
       }
     }
+    if (bestScore === 999) break;
   }
 
-  return { reply: "I don't understand that yet. Train me! 💙", tag: null, matched: false };
+  // Context-aware fallback — continue last topic
+  if (!bestMatch || bestScore < 3) {
+    const contextResponses = {
+      "sunn": ["Haan? Aage bol 👀", "Sun raha hoon, continue kar 💙"],
+      "kya_hua": ["Aur bata, kya hua? 🤍", "Phir? Kya hua aage? 💙"],
+      "dil_ki_baat": ["Bol yaar, aage bata ❤️", "Sab sun raha hoon 🌿"],
+      "mood_sad": ["Theek hai yaar, bata aur 💙", "Main hoon na, bol 🤍"],
+    };
+
+    if (lastTag && contextResponses[lastTag]) {
+      const arr = contextResponses[lastTag];
+      const reply = arr[Math.floor(Math.random() * arr.length)];
+      userMemory[userId].push({ role: "bot", message: reply, tag: lastTag, time: Date.now() });
+      return { reply, tag: lastTag, matched: true };
+    }
+
+    return {
+      reply: ["Hmm, aur bata? 👀", "Haan? Continue kar 💙", "Samjha nahi, thoda aur bol 🤍"][Math.floor(Math.random() * 3)],
+      tag: null,
+      matched: false
+    };
+  }
+
+  const responses = bestMatch.responses;
+  const reply = responses[Math.floor(Math.random() * responses.length)];
+  userMemory[userId].push({ role: "bot", message: reply, tag: bestMatch.tag, time: Date.now() });
+  return { reply, tag: bestMatch.tag, matched: true };
 }
 
 // Chat

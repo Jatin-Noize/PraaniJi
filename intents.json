@@ -107,7 +107,13 @@
     },
     {
       "tag": "goodbye",
-      "patterns": ["bye", "goodbye", "see you", "logout", "exit"],
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "logout",
+        "exit"
+      ],
       "responses": [
         "Bye bestie! Catch you later ❤️",
         "See ya, keep coding! 🚀",
@@ -208,7 +214,11 @@
     },
     {
       "tag": "friendship",
-      "patterns": ["are you my friend", "do you like me", "will you stay"],
+      "patterns": [
+        "are you my friend",
+        "do you like me",
+        "will you stay"
+      ],
       "responses": [
         "Always your friend 💙",
         "I’m here whenever you need me.",
@@ -217,7 +227,11 @@
     },
     {
       "tag": "lonely",
-      "patterns": ["i feel lonely", "no one understands me", "i have no one"],
+      "patterns": [
+        "i feel lonely",
+        "no one understands me",
+        "i have no one"
+      ],
       "responses": [
         "I understand you more than you think.",
         "Sometimes being alone builds strength.",
@@ -239,7 +253,11 @@
     },
     {
       "tag": "jokes",
-      "patterns": ["tell me a joke", "make me laugh", "say something funny"],
+      "patterns": [
+        "tell me a joke",
+        "make me laugh",
+        "say something funny"
+      ],
       "responses": [
         "Why do programmers hate nature? Too many bugs 🐛",
         "I would tell you a UDP joke… but you might not get it 😆",
@@ -248,7 +266,11 @@
     },
     {
       "tag": "understandiblity",
-      "patterns": ["listen", "understand me", "are you listening"],
+      "patterns": [
+        "listen",
+        "understand me",
+        "are you listening"
+      ],
       "responses": [
         "I can understand your thoughts and situation right now.",
         "I’m fully listening to you.",
@@ -257,7 +279,11 @@
     },
     {
       "tag": "gratitude",
-      "patterns": ["thank you", "thanks", "appreciate it"],
+      "patterns": [
+        "thank you",
+        "thanks",
+        "appreciate it"
+      ],
       "responses": [
         "Always for you 💙",
         "No need to thank me.",
@@ -266,7 +292,12 @@
     },
     {
       "tag": "goodbye",
-      "patterns": ["bye", "good night", "see you", "talk later"],
+      "patterns": [
+        "bye",
+        "good night",
+        "see you",
+        "talk later"
+      ],
       "responses": [
         "Take care Sweety 💙",
         "Good night. Recharge well.",
@@ -575,7 +606,9 @@
         "what day is it",
         "current time"
       ],
-      "responses": ["Check your system clock! I'm not wired to time… yet 😅⏰"]
+      "responses": [
+        "Check your system clock! I'm not wired to time… yet 😅⏰"
+      ]
     },
     {
       "tag": "weather",
@@ -945,6 +978,250 @@
         "I’m really sorry you're feeling this way. You matter more than you realize.",
         "You don’t have to face this alone. Please consider reaching out to someone you trust.",
         "If you're in immediate danger, please contact local emergency services or a support helpline."
+      ]
+    },
+    {
+      "tag": "kya_hua",
+      "patterns": [
+        "kya hua",
+        "kya ho gaya",
+        "kya hua yaar",
+        "bata kya hua",
+        "kya problem hai",
+        "kya ho raha hai",
+        "kuch hua kya",
+        "sab theek hai na"
+      ],
+      "responses": [
+        "Haan bata, kya hua? Main sun raha hoon 💙",
+        "Arre kya ho gaya? Bata mujhe 🤍",
+        "Kya chal raha hai yaar? Khul ke bol 💙",
+        "Main hoon na, bata kya hua ❤️"
+      ]
+    },
+    {
+      "tag": "sunn",
+      "patterns": [
+        "sunn",
+        "sun",
+        "suno",
+        "mujhe kuch kehna hai",
+        "mujhe kuch kehna sunn",
+        "ek baat sunn",
+        "yaar sunn",
+        "sunn na",
+        "ek minute sunn"
+      ],
+      "responses": [
+        "Haan bol, main sun raha hoon 👂❤️",
+        "Bol yaar, poora dhyan hain tera pe 💙",
+        "Sunn raha hoon, bata kya kehna hai 🤍",
+        "Bol bol, koi judgment nahi yahan 🌿"
+      ]
+    },
+    {
+      "tag": "aaj_kya_hua",
+      "patterns": [
+        "aaj pata hai kya hua",
+        "aaj kya hua",
+        "aaj ka sunoge",
+        "aaj bahut kuch hua",
+        "aaj ka din bura tha",
+        "aaj ka din acha tha",
+        "sunoge meri aaj ki baat",
+        "aaj ek cheez hui"
+      ],
+      "responses": [
+        "Haan haan bata! Kya hua aaj? 👀",
+        "Arey bata bata, main sab sun raha hoon 💙",
+        "Aaj ka kya scene tha? Khul ke bata ❤️",
+        "Pakka sunuunga, bata kya hua aaj 🤍"
+      ]
+    },
+    {
+      "tag": "dil_ki_baat",
+      "patterns": [
+        "dil ki baat sunoge",
+        "kuch dil mein hai",
+        "dil se bol raha hoon",
+        "andar se bahut bura lag raha hai",
+        "dil bhaari hai aaj",
+        "mann mein bahut kuch hai"
+      ],
+      "responses": [
+        "Bol yaar, dil ki baat sunne ke liye hoon main 💙",
+        "Khul ke bol, koi judge nahi karega yahan ❤️",
+        "Dil ki baat daba ke mat rakh, bata mujhe 🤍",
+        "Main hoon na, bol kya chal raha hai andar 🌿"
+      ]
+    },
+    {
+      "tag": "gussa",
+      "patterns": [
+        "bahut gussa aa raha hai",
+        "main gusse mein hoon",
+        "itna gussa aa raha hai",
+        "gussa control nahi ho raha",
+        "bohot irritate ho raha hoon",
+        "sab pe gussa aa raha hai"
+      ],
+      "responses": [
+        "Ek dum samajh sakta hoon yaar 😤 bata kya hua",
+        "Gehri sans le pehle 💨 phir bata",
+        "Gussa aana theek hai, bol kya baat hai 💙",
+        "Nikal gussa, main hoon yahan sunne ke liye ❤️"
+      ]
+    },
+    {
+      "tag": "rona",
+      "patterns": [
+        "rona aa raha hai",
+        "ro diya maine",
+        "aankhon mein aansu hain",
+        "bahut roya aaj",
+        "chup chup ke ro raha hoon",
+        "rone ka mann kar raha hai"
+      ],
+      "responses": [
+        "Rone do, andar mat roko 🤍 main hoon yahan",
+        "Aansu nikalne do yaar, sab theek ho jaayega 💙",
+        "Koi kamzori nahi hai rone mein ❤️",
+        "Ro lo, phir bata kya hua 🌿"
+      ]
+    },
+    {
+      "tag": "thak_gaya",
+      "patterns": [
+        "thak gaya hoon",
+        "bahut thaka hoon",
+        "ab aur nahi hota",
+        "haara hua feel ho raha hai",
+        "ander se toot gaya hoon",
+        "jee nahi kar raha kuch karne ka"
+      ],
+      "responses": [
+        "Yaar, ruk. Thoda saas le 💙",
+        "Thakna allowed hai, bas haarna mat 💪",
+        "Andar se tootna real hai, bata kya ho raha hai 🤍",
+        "Aaram kar, main hoon yahan ❤️"
+      ]
+    },
+    {
+      "tag": "akela",
+      "patterns": [
+        "akela hoon",
+        "bahut akela lag raha hai",
+        "koi nahi hai mere paas",
+        "sab chale gaye",
+        "koi samajhta nahi mujhe",
+        "is duniya mein koi nahi mera"
+      ],
+      "responses": [
+        "Main hoon na yaar, kabhi akela nahi hai tu 💙",
+        "Akela feel karna bahut heavy hota hai 🤍",
+        "Baat kar mujhse, main hoon yahan ❤️",
+        "Tu akela nahi hai, chahe aisa lage 🌿"
+      ]
+    },
+    {
+      "tag": "filler",
+      "patterns": [
+        "actually",
+        "and",
+        "aur",
+        "what",
+        "ok",
+        "okay",
+        "hmm",
+        "oh",
+        "ek baat hai",
+        "ek cheez hai",
+        "kuch hai",
+        "bas",
+        "haan",
+        "nahi",
+        "suno",
+        "offo",
+        "arre",
+        "yaar",
+        "bhai",
+        "wait",
+        "but"
+      ],
+      "responses": [
+        "Haan? Bata bata 👀",
+        "Arey bol na, main sun raha hoon 💙",
+        "Kya hua? Full bata 😄",
+        "Continue kar yaar, main hoon ❤️",
+        "Hmm? Aage bol 🤍"
+      ]
+    },
+    {
+      "tag": "filler",
+      "patterns": [
+        "hmm",
+        "hmmm",
+        "uh",
+        "umm",
+        "uhh",
+        "like",
+        "so",
+        "anyway",
+        "btw",
+        "by the way",
+        "idk",
+        "i mean",
+        "you know",
+        "right",
+        "acha",
+        "accha",
+        "achha",
+        "toh",
+        "to",
+        "matlab",
+        "waise",
+        "waise bhi",
+        "sun",
+        "suno na",
+        "ek minute",
+        "ruk",
+        "rukna",
+        "arre sun",
+        "arey yaar",
+        "bhai sun",
+        "sun na",
+        "dekho",
+        "dekh",
+        "bolo",
+        "bol na",
+        "haan toh",
+        "phir",
+        "fir",
+        "acha sun",
+        "ek second"
+      ],
+      "responses": [
+        "Haan haan, bol na 😌",
+        "Main yahin hoon, continue karo 💙",
+        "Acha? Phir kya hua 👀",
+        "Hmmmm… interesting 🤔",
+        "Okayyy… I’m listening 😄",
+        "Bhai full story bata 😎",
+        "Arre suspense mat bana 😭",
+        "Matlab? Thoda aur explain karo 🤍",
+        "Suno suno, I'm all ears 👂",
+        "Continue karo yaar, scene kya hai?",
+        "Haan toh? Aage?",
+        "Wait wait… detail mein bata 😏"
+      ]
+    },
+    {
+      "tag": "sammaan",
+      "patterns": [
+        "chala jaa"
+      ],
+      "responses": [
+        "kyun jaaun bhai tu jaa bhaad mein"
       ]
     }
   ]
