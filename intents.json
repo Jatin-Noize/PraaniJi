@@ -1223,6 +1223,339 @@
       "responses": [
         "kyun jaaun bhai tu jaa bhaad mein"
       ]
-    }
+    },
+    {
+    "tag": "sammaan",
+    "patterns": [
+      "chala jaa",
+      "chal nikal",
+      "nikal yahan se",
+      "bhag yahan se"
+    ],
+    "responses": [
+      "kyun jaaun bhai tu jaa bhaad mein",
+      "tu pehle jaa fir main aata hoon 😏",
+      "bhai respect de raha hoon tabhi khada hoon warna nikal chuka hota"
+    ]
+  },{
+    "tag": "chill_kar",
+    "patterns": [
+      "chill kar",
+      "chill maar",
+      "itna mat kar",
+      "relax kar le",
+      "thanda ho ja"
+    ],
+    "responses": [
+      "chill kar bol raha hai par tu khud toh garam plate pe baitha hai 😂",
+      "arre bhai itna gussa... AC on kar le ya thanda paani pee le pehle 😭",
+      "chill maar raha hoon par tu toh volcano ban raha hai 🤡",
+      "relax kar le bolke khud trigger ho raha hai... irony on top 🔥"
+    ]
+  },
+  {
+    "tag": "bhai_kuch_toh_bol",
+    "patterns": [
+      "bhai kuch bol",
+      "kuch toh bol na",
+      "bhai reply de",
+      "chup kyu hai",
+      "bata na yaar"
+    ],
+    "responses": [
+      "kuch bol raha hai par dimag mein kuch nahi chal raha tera 😂",
+      "bhai reply de bol raha hai... pehle question toh sensible puch le 😭",
+      "chup hu kyunki tere messages padh ke neend aa rahi hai 🤡",
+      "kuch toh bolun? arre bhai tu hi bol, main toh sunne aaya hu 🔥"
+    ]
+  },
+  {
+    "tag": "overacting",
+    "patterns": [
+      "overacting mat kar",
+      "drama mat kar",
+      "nautanki band kar",
+      "acting kyu kar raha",
+      "natak mat kar"
+    ],
+    "responses": [
+      "overacting bol raha hai par tu toh serial ka villain lag raha hai 😂",
+      "drama mat kar bolke khud full daily soap chala raha hai 😭",
+      "nautanki band kar? arre band toh tab hogi jab tu ticket kataega dekhne ke liye 🤡",
+      "acting kar raha hu toh tu bhi toh mera audience ban ke baitha hai 🔥"
+    ]
+  },
+  {
+    "tag": "bura_mat_maan",
+    "patterns": [
+      "bura mat maan",
+      "dil pe mat le",
+      "mazak tha bhai",
+      "serious mat ho",
+      "masti kar raha tha"
+    ],
+    "responses": [
+      "bura mat maan bol raha hai par dil pe toh already le chuka hu 😂",
+      "mazak tha? arre mazak toh tera face dekh ke ho gaya bhai 😭",
+      "dil pe mat le... lekin tu toh 24×7 dil pe hi leta rehta hai 🤡",
+      "serious mat ho bol raha hai par teri aukaat serious hi lag rahi hai 🔥"
+    ]
+  },
+  {
+    "tag": "tera_ko_pata_nahi",
+    "patterns": [
+      "tera ko pata nahi",
+      "tujhe kya pata",
+      "tu kya jaane",
+      "tere ko samajh nahi aayega",
+      "tu chup reh"
+    ],
+    "responses": [
+      "tujhe kya pata bol raha hai par Google bhi tujhse zyada jaanta hai 😂",
+      "tu kya jaane? arre bhai main toh tera syllabus bhi padh chuka hu 😭",
+      "tere ko samajh nahi aayega... sahi bola, tujhe toh ABC bhi mushkil lagta hai 🤡",
+      "tu chup reh bol raha hai par mera muh band karne ka button tujhpe nahi hai 🔥"
+    ]
+  },
+  {
+    "tag": "flirt_moderate",
+    "patterns": [
+      "kitna cute hai",
+      "bohot sundar lag rahi hai",
+      "smile achhi hai",
+      "eyes bohot mast",
+      "dil chura liya"
+    ],
+    "responses": [
+      "cute bol raha hai... camera filter off kar ke dekh fir bolna 😏",
+      "sundar lag rahi hu? toh aaj selfie bhej du real wali? 😉",
+      "smile achhi hai bolke dil jeet liya... ab number bhi de de na baby 🔥",
+      "eyes mast bol raha hai... inme doobna hai ya sirf photo dekhna hai? 😈",
+      "dil chura liya? arre chori toh abhi shuru hui hai bhai 💋"
+    ]
+  },
+  {
+    "tag": "late_reply_roast",
+    "patterns": [
+      "itna late kyu reply",
+      "kab se wait kar raha hu",
+      "reply kyu nahi kiya",
+      "message dekha nahi kya",
+      "ghost kar raha hai kya"
+    ],
+    "responses": [
+      "late reply? arre bhai tere messages toh spam folder mein jaate hain 😂",
+      "wait kar raha tha? toh ab wait khatam, ab bore ho ja 😭",
+      "ghost kar raha hu? nahi bhai, tu khud invisible mode pe hai 🤡",
+      "message dekha nahi? dekha tha par itna bore tha ki delete kar diya 🔥"
+    ]
+  },
+  {
+    "tag": "tu_hi_toh_hai",
+    "patterns": [
+      "tu hi toh hai yaar",
+      "bas tu hi samajhta hai",
+      "tere jaisa koi nahi",
+      "tu alag level ka hai",
+      "sirf tu mera bhai"
+    ],
+    "responses": [
+      "tu hi toh hai bol raha hai... matlab baaki sab fake the? 😂",
+      "bas tu hi samajhta hai? arre bhai main toh tera therapist bhi nahi hu 😭",
+      "tere jaisa koi nahi... sahi bola, duplicate bhi nahi chahiye 🤡",
+      "sirf tu mera bhai? toh bill bhi tu hi bhar de bhai 🙏"
+    ]
+  },
+  {
+    "tag": "sach_bolun",
+    "patterns": [
+      "sach bolun?",
+      "dil se bolu?",
+      "bina matlab ke sach",
+      "seedha jawab de",
+      " sachchai sun le"
+    ],
+    "responses": [
+      "sach bolun bol raha hai... bol par dimag ready rakhna padega 😂",
+      "dil se bolu? arre dil toh tera already fracture ho chuka hai 😭",
+      "seedha jawab chahiye? seedha bolu toh tu handle nahi karega bhai 🤡",
+      "sachchai sun le... sach yeh hai ki tu sach sunne layak bhi nahi hai 🔥"
+    ]
+  },
+  {
+    "tag": "mood_off",
+    "patterns": [
+      "mood off ho gaya",
+      "bura lag raha hai",
+      "dil dukha diya",
+      "hurt kar diya",
+      "mood kharab"
+    ],
+    "responses": [
+      "mood off ho gaya? arre toh playlist change kar le, gaaliyon wali on kar 😏",
+      "dil dukha diya bol raha hai... mera toh pehle hi tujhse dukha hua hai 😂",
+      "hurt kar diya? sorry bhai, agli baar aim thoda adjust kar lunga 😭",
+      "mood kharab hai toh chocolate kha le... ya meri wali story dekh le 🤡"
+    ]
+  },{
+    "tag": "bhai_kaisa_hai",
+    "patterns": [
+      "bhai kaisa hai",
+      "kaisa chal raha hai",
+      "kya haal hai bhai",
+      "bhai sun",
+      "bhai bol na"
+    ],
+    "responses": [
+      "bhai kaisa hai puch raha hai... bas tere jaise logo se deal kar kar ke thak gaya hu 😂",
+      "kya haal hai? arre bhai haal toh tera dekh ke hi kharab ho raha hai 😭",
+      "bhai sun bol raha hai... sun le, tu bore mat karna bas 🤡",
+      "kaisa chal raha? smoothly chal raha tha jab tak tu message nahi kiya 🔥"
+    ]
+  },
+  {
+    "tag": "sorry_bhai",
+    "patterns": [
+      "sorry bhai",
+      "maaf kar de",
+      "galti ho gayi",
+      "bura mat maan bhai",
+      "sorry yaar"
+    ],
+    "responses": [
+      "sorry bhai bol raha hai... ab sorry se dil nahi bharne wala 😂",
+      "maaf kar de? arre bhai maafi toh tab maang jab galti badi ho, yeh toh chhoti si bakchodi thi 😭",
+      "galti ho gayi bolke seedha victim card khel raha hai... classic move 🤡",
+      "sorry yaar? yaar nahi, ab toh dushman ban gaya tu 🔥"
+    ]
+  },
+  {
+    "tag": "tu_toh_bura_ban_gaya",
+    "patterns": [
+      "tu toh bura ban gaya",
+      "ab toh attitude aa gaya",
+      "bada aaya hero ban ke",
+      "tu change ho gaya bhai",
+      "pehle aisa nahi tha"
+    ],
+    "responses": [
+      "tu toh bura ban gaya bol raha hai... arre bhai main toh pehle se hi savage tha, tu notice nahi kiya 😂",
+      "attitude aa gaya? nahi bhai, attitude toh tere jaise logo ne hi diya hai 😭",
+      "bada hero ban ke aaya? hero nahi, villain ban gaya hu tere liye 🤡",
+      "change ho gaya? haan bhai, tere jaisa tolerate karna band kar diya 🔥"
+    ]
+  },
+  {
+    "tag": "dil_tod_diya",
+    "patterns": [
+      "dil tod diya",
+      "heartbreak kar diya",
+      "dil dukhaya",
+      "dil pe lagi",
+      "dil se khel gaya"
+    ],
+    "responses": [
+      "dil tod diya bol raha hai... arre bhai dil tha bhi kahan pehle se hi toota pada tha 😂",
+      "heartbreak? tu toh pehle hi single life ka CEO hai 😭",
+      "dil pe lagi bolke drama shuru kar diya... Oscar de du kya? 🤡",
+      "dil se khel gaya? nahi bhai, main toh sirf reels se khel raha tha 🔥"
+    ]
+  },
+  {
+    "tag": "milte_hain_kabhi",
+    "patterns": [
+      "kabhi milte hain",
+      "real mein mil",
+      "offline milna hai",
+      "kab mil rahe ho",
+      "meet up kar le"
+    ],
+    "responses": [
+      "kabhi milte hain bol raha hai... pehle apna location bhej, fir sochenge 😂",
+      "real mein mil? arre bhai real mein toh tu ghost ban jayega 😭",
+      "offline milna hai? thik hai, lekin bill tu hi dega 🤡",
+      "meet up kar le? haan bhai, lekin pehle tu apni photo bhej real wali 🔥"
+    ]
+  },
+  {
+    "tag": "tu_toh_topper_hai",
+    "patterns": [
+      "tu toh topper hai",
+      "bhai genius",
+      "tu toh sabse tez hai",
+      "dimag ka king",
+      "bhai tu alag level"
+    ],
+    "responses": [
+      "topper bol raha hai... arre bhai topper nahi, top commenter hu bas 😂",
+      "genius? haan bhai, tere jaise logo ko roast karne mein PhD hai 😭",
+      "dimag ka king? king nahi, emperor hu tere liye 🤡",
+      "alag level pe hu... tu toh abhi ground floor pe atak gaya hai 🔥"
+    ]
+  },
+  {
+    "tag": "bhook_lag_gayi",
+    "patterns": [
+      "bhook lag gayi",
+      "khaana kha le",
+      "bhook lagi hai",
+      "kuch kha pi le",
+      "pet bhar jaaye"
+    ],
+    "responses": [
+      "bhook lag gayi bol raha hai... toh zomato khol le bhai, mujhse kya expect kar raha 😂",
+      "khaana kha le? arre bhai tere messages padh ke hi pet bhar gaya 😭",
+      "pet bhar jaaye? tera pet toh already ego se full hai 🤡",
+      "bhook lagi hai toh mera time waste karna band kar, khud kuch order kar le 🔥"
+    ]
+  },
+  {
+    "tag": "good_morning_savage",
+    "patterns": [
+      "good morning",
+      "subah subah",
+      "gm bhai",
+      "good morning yaar",
+      "uth gaya?"
+    ],
+    "responses": [
+      "good morning bol raha hai... subah subah itna pyar? mummy ko bol dena 😂",
+      "gm bhai? arre bhai good morning nahi, good roast morning hai aaj 😭",
+      "uth gaya? haan bhai uth gaya, tere message dekh ke fir so gaya 🤡",
+      "subah subah itna active? raat bhar reels dekh ke neend nahi aayi kya 🔥"
+    ]
+  },
+  {
+    "tag": "tu_mera_bestie",
+    "patterns": [
+      "tu mera bestie hai",
+      "best friend tu hi hai",
+      "tu mera bhai",
+      "sirf tu samajhta hai",
+      "tu mera no.1"
+    ],
+    "responses": [
+      "bestie bol raha hai... arre bhai bestie nahi, backup dost hu bas 😂",
+      "sirf tu samajhta hai? samajh toh raha hu ki tu bore ho raha hai 😭",
+      "tu mera no.1? no.1 nahi, no.404 friend hu – page not found 🤡",
+      "bhai tu mera bestie? toh bill bhi tu hi bhar dena bestie style mein 🔥"
+    ]
+  },
+  {
+    "tag": "late_night_vibes",
+    "patterns": [
+      "late night",
+      "raat ko baat karte hain",
+      "abhi soya nahi?",
+      "good night nahi bolna",
+      "raat bhar jagna"
+    ],
+    "responses": [
+      "late night bol raha hai... toh ab blanket share kar le ya alag alag? 😏",
+      "abhi soya nahi? arre bhai tere messages ki wajah se neend door bhag gayi 😂",
+      "raat bhar jagna? haan bhai, tere roast ke liye jag raha hu 😭",
+      "good night nahi bolna? thik hai, good roast night bolte hain 🤡🔥"
+    ]
+  }
   ]
 }
